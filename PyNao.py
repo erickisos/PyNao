@@ -20,7 +20,7 @@ from naoqi import ALProxy
 import threading
 import vision_definitions as vd
 
-from mainwindowComplex import Ui_MainWindow
+from mainWindowComplex import Ui_MainWindow
 
 
 class Ventana(QtGui.QMainWindow):
@@ -44,7 +44,7 @@ class Ventana(QtGui.QMainWindow):
                      self.RockYou)
         self.connect(self.win.kongButton, QtCore.SIGNAL('clicked()'), self.kingKong)
         self.connect(self.win.musclesButton, QtCore.SIGNAL('clicked()'), self.muscle)
-        self.connect(self.win.avionButton, QtCore.SIGNAL('clicked()'), self.arturito)
+        self.connect(self.win.r2d2Button, QtCore.SIGNAL('clicked()'), self.arturito)
         self.connect(self.win.nopeButton, QtCore.SIGNAL('clicked()'), self.Nope)
         self.connect(self.win.yeahButton, QtCore.SIGNAL('clicked()'), self.runBehaviorDialog)
         self.connect(self.win.vacuumButton, QtCore.SIGNAL('clicked()'), self.aspiradora)
