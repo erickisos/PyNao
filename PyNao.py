@@ -106,23 +106,18 @@ class Ventana(QtGui.QMainWindow):
 
     def Rock(self):
         print("Rock")
-        pass
 
     def Yeah(self):
         print("Yeah!")
-        pass
 
     def Explain(self):
         print("Explicando")
-        pass
 
     def Cool(self):
         print("Calm Down")
-        pass
 
     def excited(self):
         print("Excited")
-        pass
 
     def GiroFrenteIzquierda(self):
         IP = str(self.win.textIP.text())
@@ -152,11 +147,9 @@ class Ventana(QtGui.QMainWindow):
 
     def GiroBackIzquierda(self):
         print("Giro de reversaIzquierda")
-        pass
 
     def GiroBackDerecha(self):
         print("Giro de reversaDerecha")
-        pass
 
     def crearHotspot(self):
         print("Soy un AP")
@@ -173,7 +166,6 @@ class Ventana(QtGui.QMainWindow):
 
     def volumeControl(self):
         print("Volume changed")
-        pass
 
     def animatedSay(self):
         IP = str(self.win.textIP.text())
@@ -229,11 +221,9 @@ class Ventana(QtGui.QMainWindow):
 
     def arturito(self):
         print("R2D2")
-        pass
 
     def kingKong(self):
         print("KingKong")
-        pass
 
     def Nope(self):
         print("Nope")
